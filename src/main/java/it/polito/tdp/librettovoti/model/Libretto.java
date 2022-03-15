@@ -47,7 +47,11 @@ public class Libretto {
 //		throw new IllegalArgumentException("Corso non trovato") ;
 	}
 	
-	
+	/**
+	 * controlla se corso+voto sono duplicati
+	 * @param classe voto
+	 * @return vero se risulta già presente il libretto con stesso nome+voto, oppure falso se la coppia non esiste
+	 */
 	public boolean isDuplicato(Voto v) {
 		for(Voto v1: this.voti) {
 			if(v1.equals(v))
