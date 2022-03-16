@@ -10,6 +10,9 @@ import javafx.stage.Stage;
 
 public class EntryPoint extends Application {
 
+	// vedi lezione TdP-2022-L07 per la spiegazione della classe
+	
+	
     @Override
     public void start(Stage stage) throws Exception {
 //        Parent root = FXMLLoader.load(getClass().getResource("/fxml/Scene.fxml"));
@@ -17,8 +20,7 @@ public class EntryPoint extends Application {
         Parent root = loader.load() ;
         
         FXMLController controller = loader.getController();
-        
-        
+               
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/styles/Styles.css");
         

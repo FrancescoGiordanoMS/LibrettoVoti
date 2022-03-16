@@ -1,5 +1,8 @@
 package it.polito.tdp.librettovoti.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TestLibretto {
 
 	public static void main(String[] args) {
@@ -15,7 +18,8 @@ public class TestLibretto {
 		System.out.println("Voti pari a 25");
 		Libretto lib25 = lib.filtraPunti(25);
 		System.out.println(lib25) ;
-
+		
+		
 	}
 
 }
